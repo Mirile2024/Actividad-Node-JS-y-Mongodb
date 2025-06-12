@@ -1,0 +1,18 @@
+###
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/frutas
+
+###
+GET http://localhost:3000/frutas/1
+
+###
+GET http://localhost:3000/frutas/nombre/Bana+
+
+### 
+GET http://localhost:3000/frutas/importe/5000
+
+
+
+
