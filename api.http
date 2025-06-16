@@ -5,7 +5,7 @@ GET http://localhost:3000/
 GET http://localhost:3000/frutas
 
 ###
-GET http://localhost:3000/frutas/1
+GET http://localhost:3000/frutas/683f8da9d30d8e3ffacb9d78
 
 ###
 GET http://localhost:3000/frutas/nombre/Bana+
