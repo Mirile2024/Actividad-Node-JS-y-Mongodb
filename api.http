@@ -1,18 +1,40 @@
 ###
 GET http://localhost:3000/
 
-###
+###// muestra todas las frutas
 GET http://localhost:3000/frutas
 
-###
-GET http://localhost:3000/frutas/683f8da9d30d8e3ffacb9d78
+###// muestra una fruta x _id
+GET http://localhost:3000/frutas/683f8da9d30d8e3ffacb9d71
 
-###
+### // hace la busqueda con todos las frutas que tengan el nombre Bana+
 GET http://localhost:3000/frutas/nombre/Bana+
 
-### 
+### // hace la busqueda con todas las frutas que tengan un precio mayor o igual a 5000
 GET http://localhost:3000/frutas/importe/5000
 
+###// crea una nueva fruta
+POST http://localhost:3000/frutas
+Content-Type: application/json
 
+{
+    "id": 12,
+    "imagen": "🍇",
+    "nombre": "Uvas",
+    "precio": 320
 
+  }
 
+### // borra una fruta
+DELETE http://localhost:3000/frutas/6850c19e377c6d0d85c81566
+
+### // modifica una fruta       
+PUT http://localhost:3000/frutas/683f8da9d30d8e3ffacb9d71
+Content-Type: application/json
+
+{
+    "precio": 500
+  }
+
+### // muestra la fruta modificada
+GET http://localhost:3000/frutas/683f8da9d30d8e3ffacb9d71

@@ -9,3 +9,4 @@ En estos endpoints, deberás utilizar el método .find().toArray(), para que dev
 de un resultado.
 También deberás integrar Expresiones Regulares. JavaScript las trabaja de forma
 nativa con el objeto RegExp().
+
